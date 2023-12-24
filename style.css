@@ -1,0 +1,61 @@
+.carousel-item img {
+    height: 90vh;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, .5);
+    margin-bottom: 20px;
+}
+
+.bg-gradblue {
+    /* background-image: linear-gradient(to right, dodgerblue, purple);
+     */
+     /* background-image: radial-gradient(); */
+     background-color: dodgerblue;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.img-thumbnail img {
+    height: 200px;
+    width: 100%;
+}
+
+.card {
+    transform-style: preserve-3d;
+}
+
+.card:hover img {
+    transform: translateZ(50px);
+}
+
+
+.card:hover .card-body {
+    transform: translateZ(50px);
+}
+
+.box:hover {
+    box-shadow: 0 0 50px aqua;
+    transform: scale(1.1);
+}
+
+.banner-page {
+    height: 250px;
+    background-image: url(istanbul.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+}
+
+.title-page {
+    width: 60%;
+    margin: auto;
+    background-color: rgba(244, 238, 238, 0.8);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 30px black;
+}
